@@ -8,7 +8,7 @@
     <title>Signup_Form!</Form></title>
   </head>
 
-  <body>
+  <body class="body">
     <div>
       <nav class="navbar">
         <h2><span class="navbar_h2">Semana da </span>Programação</h2>
@@ -26,24 +26,46 @@
 
           <div>
             <label for="nome">Nome:</label><br />
-            <input type="text" name="nome" id="nome" />
+            <input
+              type="text"
+              placeholder="  Informe seu nome"
+              name="nome"
+              id="nome"
+            />
           </div>
           <div>
             <label for="email">E-mail:</label><br />
-            <input type="email" name="email" id="email" />
+            <input
+              type="email"
+              placeholder="  Informe seu e-mail"
+              name="email"
+              id="email"
+            />
           </div>
           <div>
             <label for="fone">Telefone:</label><br />
-            <input type="number" name="fone" id="fone" />
+            <input
+              type="number"
+              placeholder="  (XX)XXXXX-XXXX"
+              name="fone"
+              id="fone"
+            />
           </div>
           <div>
             <label for="cidade">Cidade-UF:</label><br />
-            <input type="text" name="cidade" id="cidade" />
+            <input
+              type="text"
+              placeholder="  Informe sua cidade e UF"
+              name="cidade"
+              id="cidade"
+            />
           </div>
           <div>
             <label for="ling">Linguagem principal:</label><br />
             <select name="ling" id="ling">
-              <option value=""></option>
+              <option class="ling_opt" value="">
+                ...Selecione uma Linguagem
+              </option>
               <option value="java">Java</option>
               <option value="php">Php</option>
               <option value="phyton">Phyton</option>
@@ -56,8 +78,9 @@
     </main>
 
     <footer class="footer">
-      <label for="">Entre em contato - </label>
-      <a href="#" target="_blank"> sousa.massarutti@icloud.com </a>
+      <a href="mailto:sousa.massarutti@icloud.com" target="_blank">
+        Nosso e-mail
+      </a>
     </footer>
 
     <hr />
