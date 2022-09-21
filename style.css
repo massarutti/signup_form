@@ -2,15 +2,16 @@
 
 * {
   font-family: "Shadows Into Light", cursive;
-  color: #fff;
+  color: black;
+  --color-amarelo: #ffc700;
 }
 
 .body {
-  background-color: rgb(21, 24, 35);
+  background-color: var(--color-amarelo);
 }
 
 .navbar {
-  background-color: cadetblue;
+  background-color: black;
   font-size: 30px;
   padding: 0 5rem;
   display: flex;
@@ -19,12 +20,19 @@
   justify-content: space-between;
 }
 
+.navbar_img {
+  padding-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
 .navbar h2 {
-  margin-left: 450px;
+  color: white;
+  margin-left: 100px;
 }
 
 .navbar span {
-  color: rgb(255, 251, 0);
+  color: var(--color-amarelo);
 }
 
 .navbar_list {
@@ -33,24 +41,34 @@
 }
 
 .navbar_list a {
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(255, 251, 0);
+  color: var(--color-amarelo);
   text-decoration: underline;
 }
 
 .container {
-  padding: 50px;
+  padding-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+}
+
+.container_img {
+  padding-right: 150px;
+  width: 800px;
+  height: 500px;
+}
+
+.container_form {
 }
 
 .container_form input,
 select {
-  width: 300px;
-  height: 30px;
+  width: 400px;
+  height: 40px;
   border-radius: 20px;
   border-width: 1px;
 }
